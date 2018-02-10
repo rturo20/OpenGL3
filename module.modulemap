@@ -1,0 +1,7 @@
+module OpenGL3 [system] {
+  header "/usr/include/GLFW/glfw3.h"
+  //header "/usr/include/GLFW/glfw3native.h"
+  link "glfw"
+  link "GL"
+  export *
+}
