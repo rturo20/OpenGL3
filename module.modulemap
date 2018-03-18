@@ -5,7 +5,7 @@ module OpenGL3 [system] {
   //: If linux
   //: header "/usr/include/GLFW/glfw3
   //header "/usr/include/GLFW/glfw3native.h"
-  link "glfw"
-  link "GL"
+  //link "glfw"
+  //link "GL"
   export *
 }
