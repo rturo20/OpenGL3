@@ -1,12 +1,12 @@
-module OpenGL3 [system] {
-  header "/usr/include/GLFW/glfw3.h"
-
 #if os(OSX)
-  header "/usr/local/Cellar/glfw/3.2.1/include/GLFW/glfw3.h"
+	module OpenGL3 [system] {
+		header "/usr/local/Cellar/glfw/3.2.1/include/GLFW/glfw3.h"
+		export *
+	}
 #endif
-  
 
-//header "/usr/include/GLFW/glfw3native.h"
+module OpenGL3 [system] {
+  header "/usr/include/GLFW/glfw3.//header "/usr/include/GLFW/glfw3native.h"
   link "glfw"
   link "GL"
   export *
